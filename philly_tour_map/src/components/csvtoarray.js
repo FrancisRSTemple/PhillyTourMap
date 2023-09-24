@@ -11,7 +11,6 @@ function csvToArray(csv) {
     return result;
   }
   
-  const csvString = 'Name,Age,Occupation\nKeval Shah,30,Developer\nEsha Shah,25,Designer';
-  
+  const csvString = "troy,test,help\nnext,line,here";
   const array = csvToArray(csvString);
   console.log(array);
