@@ -1,7 +1,6 @@
 
 import './App.css';
 import Title from './components/Title.jsx';
-import map from './resources/images/map.png';
 
 function openArtMuseum(){
   window.open('https://philamuseum.org/','blank');
