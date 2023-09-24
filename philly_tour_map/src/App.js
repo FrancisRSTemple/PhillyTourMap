@@ -2,8 +2,18 @@
 import './App.css';
 import Title from './components/Title.jsx';
 import map from './resources/images/map.png';
-function ButtonClick(url){
-  window.open(url,'blank');
+
+function openArtMuseum(){
+  window.open('https://philamuseum.org/','blank');
+}
+function openPennsLanding(){
+  window.open('https://www.visitphilly.com/things-to-do/attractions/penns-landing/','blank');
+}
+function openOldCity(){
+  window.open('https://www.oldcitydistrict.org/','blank');
+}
+function openLovePark(){
+  window.open('https://www.visitphilly.com/things-to-do/attractions/love-park/','blank');
 }
 function App() {
   return (
@@ -14,9 +24,22 @@ function App() {
 
       <h2 className='Map'>My Image</h2>
       <img src={map} alt="Map"/>
-      <button className="Button" onClick={ButtonClick}>
-        hello
-      </button>
+      <body className='body'>
+        <div>
+        <button className="Button" onClick={openArtMuseum}>
+          Art Museum
+        </button>
+        <button className="Button" onClick={openPennsLanding}>
+          Penns Landing
+        </button>
+        <button className="Button" onClick={openOldCity}>
+          Old City
+        </button>
+        <button className="Button" onClick={openLovePark}>
+          Love Park
+        </button>
+        </div>
+      </body>
     </div>
   );
 }

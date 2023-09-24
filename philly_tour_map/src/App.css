@@ -25,7 +25,9 @@
 .App-link {
   color: #61dafb;
 }
-
+.body{
+  background-image: url("./resources/images/map.png");
+}
 .Button {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -35,5 +37,6 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  justify-content: center;
 }
 
