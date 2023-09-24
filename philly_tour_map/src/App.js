@@ -22,19 +22,31 @@ function App() {
         <Title>Philly Tour Map</Title>
       </header>
 
-      <h2 className='Map'>My Image</h2>
-      <img src={map} alt="Map"/>
+      {/*<h2 className='Map'>My Image</h2>
+      <img src={map} alt="Map"/>*/}
       <body className='body'>
         <div>
         <button className="Button" onClick={openArtMuseum}>
           Art Museum
         </button>
+        </div>
+        <br>
+        </br>
+        <div>
         <button className="Button" onClick={openPennsLanding}>
           Penns Landing
         </button>
+        </div>
+        <br>
+        </br>
+        <div>
         <button className="Button" onClick={openOldCity}>
           Old City
         </button>
+        </div>
+        <br>
+        </br>
+        <div>
         <button className="Button" onClick={openLovePark}>
           Love Park
         </button>
